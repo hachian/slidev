@@ -14,7 +14,7 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
-background: thumbnail.png
+background: /thumbnail.png
 
 ---
 
@@ -67,7 +67,7 @@ layout: two-cols-header
 
 ::right::
 
-![Alt text](image-1.png)
+![Alt text](/image-1.png)
 
 ---
 layout: two-cols-header
@@ -88,7 +88,7 @@ Logseqは一言でいうと**リンク付きのメモ**ができるソフトウ�
 
 ::right::
 
-![](image.png)
+![](/image.png)
 
 ---
 
