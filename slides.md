@@ -14,7 +14,7 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
-background: ./thumbnail.png
+background: thumbnail.png
 
 ---
 
