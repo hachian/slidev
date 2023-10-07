@@ -74,3 +74,15 @@ for row in data:
 
 np.savetxt("filled.csv", dstarray, delimiter=",", fmt="%f")
 ```
+
+---
+
+## 画像
+
+### `h-1/6`
+
+<img src="/icon.jpg" class="h-1/6" />
+
+### `w-1/5`
+
+<img src="/icon.jpg" class="w-1/5" />
