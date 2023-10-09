@@ -104,6 +104,26 @@ mdc: true
 
 ---
 
+## Owncastやってみた
+
+- サクッと[公式のDocker](https://owncast.online/quickstart/container/)で構築
+
+```bash
+docker pull owncast/owncast:latest
+docker run -v `pwd`/data:/app/data -p 8080:8080 -p 1935:1935 -it owncast/owncast:latest
+```
+
+- OBS設定
+  - **ストリームキーを使って配信できる**
+
+<img src="/owncast1.png" class="h-15% " >
+
+- ローカルなのに13秒くらい遅延があった。通信関係よわよわなのでここまで。
+
+<img src="/owncast2.png" class="h-33% " >
+
+---
+
 ## SNSに対する必要条件 (IMO)
 
 <img src="/lane.png" class="float-right h-80% ml-5" >
